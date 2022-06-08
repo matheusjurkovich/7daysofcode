@@ -210,9 +210,13 @@ main {
   border-radius: 1.6rem;
 }
 
-.jobs span + p {
+.jobs span {
   color: var(--text-color);
   margin-right: 2.4rem;
+}
+
+.jobs p {
+  color: var(--text-color);
 }
 
 #testimonials {
