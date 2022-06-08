@@ -35,7 +35,7 @@ header {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -52,6 +52,10 @@ header {
 .logo ul li a {
   text-decoration: none;
   color: black;
+}
+
+.logo ul li a:hover {
+  border-bottom: 0.2rem solid black;
 }
 
 .buttons {
@@ -74,11 +78,15 @@ header {
 }
 
 .buttons button:nth-child(1):hover {
-  font-weight: bold;
+  border-bottom: 0.2rem solid black;
 }
 
 .buttons button:nth-child(2):hover {
   filter: brightness(1.2);
+}
+
+.buttons button:nth-child(2):active {
+  filter: brightness(0.8);
 }
 
 /*---------------MAIN----------------------*/
@@ -304,6 +312,15 @@ footer p {
   border: 0.1rem solid #8e2424;
   box-shadow: 0px 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
   border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+#submit:hover {
+  filter: brightness(1.2);
+}
+
+#submit:active {
+  filter: brightness(0.8);
 }
 
 footer cite {
