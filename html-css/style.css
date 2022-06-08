@@ -110,6 +110,7 @@ main {
 #about h1 {
   font-size: 4.8rem;
   margin-bottom: 3.6rem;
+  text-align: center;
 }
 
 #about p {
